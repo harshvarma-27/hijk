@@ -20,7 +20,7 @@ export default function ForecastChart({ data }) {
     <div className="card chart-card">
       <h3>Forecast vs Actual Generation</h3>
 
-      <ResponsiveContainer width="100%" height={420}>
+      <ResponsiveContainer width="100%" height={390}>
         <LineChart data={chartData}>
           <CartesianGrid strokeDasharray="3 4" />
 
